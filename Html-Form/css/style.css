@@ -101,6 +101,7 @@ body{
     transition: .2s;
 }
 .btn-1{
+    /* sign in button */
     background: #21264D;
 }
 .btn:hover{
