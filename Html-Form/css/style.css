@@ -128,6 +128,7 @@ body{
     font-size: 28px;
     font-weight: 600;
 }
+
 .form-inputs{
     /* Setting the width for input user box */
     width: 100%;
@@ -149,18 +150,28 @@ body{
     outline: none;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
+    transition: .3s;
 }
+.input-field:hover{
+    /* Adding zooming effect in user input box */
+    transform: scale(1.2);
+}
+
 ::placeholder{
     color: #fff;
     font-size: 15px;
 }
+
 .input-box .icon{
     /* Placing input user and password icon inside the input box */
     position: absolute;
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
+}
+.icon:hover{
+    /* Adding hover effect to user and password icon  */
+    color: #fff;
 }
 .forgot-pass{
     /* Adjusting Forgot Password Section  */
