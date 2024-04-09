@@ -162,7 +162,21 @@ body{
     right: 15px;
     transform: translateY(-50%);
 }
-
+.forgot-pass{
+    /* Adjusting Forgot Password Section  */
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+.forgot-pass a{
+    /* Adjusting Forgot Password Text */
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
 /*  ======= Register Form ========  */
 
 
