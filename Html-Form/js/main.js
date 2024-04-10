@@ -19,6 +19,9 @@ loginBtn.addEventListener('click',() => {
 // Adding opacity effect while slide to 0 and  1 for required button..
     loginForm.style.opacity = 1;
     registerForm.style.opacity = 0;
+
+    // Adding animated border effect while sliding in column 1..
+    document.querySelector('.col-1').style.borderRadius = "0 30% 20% 0";
 })
 
 // Register button function
@@ -35,4 +38,7 @@ registerBtn.addEventListener('click',() => {
     // Adding opacity effect while slide to 0 and  1 for required button..
     loginForm.style.opacity = 0;
     registerForm.style.opacity = 1;
+
+    // Adding animated border effect while sliding in column 1..
+    document.querySelector('.col-1').style.borderRadius = "0 20% 30% 0";
 })
