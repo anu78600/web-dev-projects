@@ -73,13 +73,14 @@ body{
 
 /* ====== Featured Words ===== */
 
+/* This is for styling our p tag */
 .featured-words{
     text-align: center;
     color: #fff;
     width: 300px;
 }
 .featured-words span{
-    font-weight: 600;
+    font-weight: 800;
     color: #21264D;
 
 }
