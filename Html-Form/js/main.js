@@ -6,7 +6,33 @@
     const registerForm = document.querySelector(".register-form");
 
 // Login button function
+// Change the color of sign in and sign up button, when we click on them.
+loginBtn.addEventListener('click',() => {
+    loginBtn.style.backgroundColor = "#21264D";
+    registerBtn.style.backgroundColor = "rgba(225,225,225,0.2)";
 
+    // Creating slide effect on sign in and up button to fill form..
 
+    loginForm.style.left = "50%";
+    registerForm.style.left = "-50%"
+
+// Adding opacity effect while slide to 0 and  1 for required button..
+    loginForm.style.opacity = 1;
+    registerForm.style.opacity = 0;
+})
 
 // Register button function
+// Change the color of sign in and sign up button, when we click on them.
+registerBtn.addEventListener('click',() => {
+    loginBtn.style.backgroundColor = "rgba(225,225,225,0.2)";
+    registerBtn.style.backgroundColor = "#21264D";
+
+    // Creating slide effect on sign in and up button to fill form..
+
+    loginForm.style.left = "150%";
+    registerForm.style.left = "50%"
+
+    // Adding opacity effect while slide to 0 and  1 for required button..
+    loginForm.style.opacity = 0;
+    registerForm.style.opacity = 1;
+})
